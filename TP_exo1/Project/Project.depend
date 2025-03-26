@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1742954108 source:c:\users\pv\documents\s2_corse\concept des langages\tp\tp\farahexo1.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Farahlisteint.h"
+
+1742951382 c:\users\pv\documents\s2_corse\concept des langages\tp\tp\farahlisteint.h
+
+1742952457 source:c:\users\pv\documents\s2_corse\concept des langages\tp\tp\farahlisteint.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Farahlisteint.h"
+

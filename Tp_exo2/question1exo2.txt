@@ -1,0 +1,29 @@
+Justification du choix : Tableau dynamique
+J'ai opté pour une implémentation avec un tableau dynamique pour plusieurs raisons :
+
+Gestion efficace de la mémoire
+
+Contrairement au tableau statique, qui a une taille fixe prédéfinie et peut gaspiller de la mémoire si elle est sous-utilisée, le tableau dynamique permet de choisir la taille au moment de l'exécution.
+
+Cela permet une meilleure adaptation aux besoins de l'utilisateur.
+
+ Accès rapide aux éléments
+
+L'accès aux éléments d'une pile implémentée avec un tableau (statique ou dynamique) est direct en O(1), contrairement à une liste chaînée, où il faut suivre les pointeurs.
+
+Facilité d'implémentation
+
+Une pile en tableau dynamique est plus simple à implémenter qu'une liste chaînée car elle ne nécessite pas la gestion de pointeurs et d'allocation/désallocation de maillons à chaque opération.
+
+Cela réduit le risque d'erreurs comme des fuites mémoire ou des erreurs de segmentation.
+
+Performances optimales pour les opérations de pile
+
+Les opérations principales de la pile (empiler, dépiler, vérifier si elle est vide ou pleine) sont toutes en O(1) dans une implémentation par tableau.
+
+Pourquoi ne pas choisir une liste chaînée ?
+Une liste chaînée aurait permis une taille illimitée et une allocation dynamique de chaque élément, mais cela ajoute une surcharge mémoire (chaque élément doit stocker un pointeur en plus de la valeur).
+
+De plus, l'accès aux éléments est moins efficace car il nécessite un parcours séquentiel (contrairement à un tableau où l'accès est direct).
+
+Étant donné que la taille de la pile est définie par l'utilisateur dès le départ, un tableau dynamique est plus adapté qu'une liste chaînée.

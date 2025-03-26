@@ -1,0 +1,11 @@
+Je choisis une liste chaînée.
+Choisir une structure de données adaptée
+
+Une structure (struct) pour représenter un horaire de train
+
+Une liste chaînée pour gérer plusieurs horaires dynamiquement
+
+Justifier le choix: 
+Une liste chaînée est adaptée si on doit fréquemment ajouter/supprimer des horaires (car l’insertion et la suppression sont plus efficaces que dans un tableau statique).
+
+Elle permet aussi de parcourir facilement la liste et de trier/rechercher des horaires.

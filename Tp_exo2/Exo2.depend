@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1742967172 source:c:\users\pv\documents\s2_corse\concept des langages\exo2\exo2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pile.h"
+
+1742967312 c:\users\pv\documents\s2_corse\concept des langages\exo2\exo2\pile.h
+
+1742967097 source:c:\users\pv\documents\s2_corse\concept des langages\exo2\exo2\pile.c
+
